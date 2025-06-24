@@ -1,13 +1,16 @@
 <html>
     <!-- JS script here -->
+    <head>
+        <title>Javascrip git exercise</title>
+        <script src="sum.js"></script>
+    </head>
     <body>
         <h1>Hello Internet!</h1>
         <p>This is a website</p>
         <p>Lets do arithmetic</p>
-        <form id="frm">
-            First number: <input type="text" name="fnum"><br>
-            Second number: <input type="text" name="snum"><br><br>
-            <input type="button" value="Submit">
-        </form>
+        First number: <input type="text" id="fnum" name="fnum"><br>
+        Second number: <input type="text" id="snum" name="snum"><br><br>
+        <button onclick="addFunction()">Submit</button>
+        <p id="res"></p>
     </body>
 </html>
